@@ -1,5 +1,37 @@
 apply plugin: 'com.android.library'
 
+//https://medium.com/@tigr/how-to-publish-your-android-studio-library-to-jcenter-5384172c4739#.3ain9yhqi
+ext {
+    PUBLISH_GROUP_ID = 'com.inforoeste.mocklocationdetector'
+    PUBLISH_ARTIFACT_ID = 'mock-location-detector'
+    PUBLISH_VERSION = '1.0.0'
+}
+
+//https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en
+//ext {
+//    bintrayRepo = 'maven'
+//    bintrayName = 'mock-location-detector'
+//
+//    publishedGroupId = 'com.inforoeste.mocklocationdetector'
+//    libraryName = 'library'
+//    artifact = 'mock-location-detector'
+//
+//    libraryDescription = 'An android library to help detect mock locations'
+//
+//    siteUrl = 'https://github.com/smarques84/MockLocationDetector'
+//    gitUrl = 'https://github.com/smarques84/MockLocationDetector.git'
+//
+//    libraryVersion = '1.0.0'
+//
+//    developerId = 'smarques84'
+//    developerName = 'Stéphane Marques'
+//    developerEmail = 'smarques84@gmail.com'
+//
+//    licenseName = 'The Apache Software License, Version 2.0'
+//    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//    allLicenses = ["Apache-2.0"]
+//}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -24,3 +56,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
 }
+
+// Place it at the end of the file
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
