@@ -1,5 +1,6 @@
 # MockLocationDetector
-An android library to help detect mock locations
+An android library to help detect mock locations+8.5555555555
+
 
 # Gradle
 Add the next dependency to your _gradle.build_
