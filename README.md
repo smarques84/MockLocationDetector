@@ -13,7 +13,7 @@ From anywhere on your code just call the class MockLocationDetector to access th
 2. `checkForAllowMockLocationsApps`
 3. `isAllowMockLocationsOn`
 
-To detect if the location object you received is a mock just call the method `isLocationFromMockProvider` and pass
+To detect if the location object you received is a mock just call the method `isLocationFromMockProvider` and
 the context and the location object. This method only works on API 18+ if this method is called on lower apis it then
 it will check if Allow Mock Locations is ON or not and return the result. This is the recomended method for most cases.
 
