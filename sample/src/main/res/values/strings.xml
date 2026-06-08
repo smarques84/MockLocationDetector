@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mock Location Detector Sample</string>
+    <string name="app_name">AR GPS</string>
     <string name="last_location_received_label">Last location received info</string>
     <string name="latitude_label">Latitude:</string>
     <string name="longitude_label">Longitude:</string>
