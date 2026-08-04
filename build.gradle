@@ -23,3 +23,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+MockLocationDetector
+compile 'com.inforoeste.mocklocationdetector:mock-location-detector:1.0.0'
