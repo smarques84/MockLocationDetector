@@ -10,6 +10,8 @@ ext {
 //https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en
 //ext {
 
+MockLocationDetector
+
 compile 'com.inforoeste.mocklocationdetector:mock-location-detector:1.0.0'
 //    bintrayRepo = 'maven'
 //    bintrayName = 'mock-location-detector'
