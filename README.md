@@ -1,4 +1,4 @@
-# MockLocationDetector
+git@github.com:smarques84/MockLocationDetector.git# MockLocationDetector
 An android library to help detect mock locations
 
 # Gradle
